@@ -1,6 +1,6 @@
 header a:hover {
     transform: scale(1.00001);
-    color: var(--headig-color);
+    color: #000a19;
 }
 
 header a::after {
