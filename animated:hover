@@ -1,0 +1,19 @@
+header a:hover {
+    transform: scale(1.00001);
+    color: var(--headig-color);
+}
+
+header a::after {
+    transition: all 0.3s linear;
+    content: "";
+    position: absolute;
+    width: 0%;
+    bottom: -5px;
+    left: 0;
+    height: 0.3rem;
+    background-color: var(--main-color);
+}
+
+header a:hover::after {
+    width: 100%;
+}
