@@ -1,12 +1,12 @@
-footer a {
+  a {
+  font-family: "Poppins", sans-serif;
   color: black;
   text-decoration: none;
-  margin: 0 12px;
+  margin: 0;
   font-size: 15px;
-  position: relative;
 }
 
 /* Hover color */
-footer a:hover {
+a:hover {
   text-decoration: underline 1.5px solid black;
 }
