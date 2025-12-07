@@ -1,0 +1,5 @@
+blue theme color
+
+    text-shadow:0.6px 0.6px 2px #00eeff,
+    -0.6px -0.6px 2px #00eeff;
+    color: #09f5fd;
