@@ -1,0 +1,58 @@
+<header class="navbar">
+    <div class="container nav-content">
+
+        <h2 class="logo">MyBrand</h2>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+.navbar{
+    background: #0F62FE;
+    padding: 15px 0;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 5px; /* space for underline */
+}
+
+/* Sliding Underline */
+.nav-links li a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+}
