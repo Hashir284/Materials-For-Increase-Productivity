@@ -1,0 +1,49 @@
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container hero-grid">
+
+        <!-- Left Content -->
+        <div class="hero-text">
+            <h1>Build Stunning Websites Fast</h1>
+            <p>Create modern UI layouts quickly and efficiently.</p>
+            <button class="btn">Get Started</button>
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-img">
+            <img src="https://via.placeholder.com/450x350" alt="Hero Image">
+        </div>
+
+    </div>
+</section>
+
+
+
+  
+
+  .hero{
+    padding: 80px 0;
+    background: linear-gradient(#EAF2FF, #fff);
+}
+
+.hero-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-img img{
+    width: 100%;
+    border-radius: 10px;
+}
